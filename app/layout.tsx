@@ -14,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="font-poppins bg-red-500"
+      <body className="font-poppins bg-teal-500"
   
       >
         {children}
