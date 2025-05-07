@@ -23,7 +23,7 @@ export default function RootLayout({
         <body className="font-poppins">
           <div className="flex flex-col min-h-screen">
             <Header />
-            <main className="flex-1">{children}</main>
+            <main >{children}</main>
             <Footer />
           </div>
         </body>

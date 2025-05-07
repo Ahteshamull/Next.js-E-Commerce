@@ -20,28 +20,28 @@ export default function SocialMedia({
   const socialLinks = [
     {
       title: "Facebook",
-      href: "#",
+      href: "/",
       icon: <Facebook className="w-5 h-5" />,
     },
     {
       title: "Instagram",
-      href: "#",
+      href: "/",
       icon: <Instagram className="w-5 h-5" />,
     },
     {
       title: "Github",
-      href: "#",
+      href: "/",
       icon: <Github className="w-5 h-5" />,
     },
     {
       title: "Youtube",
-      href: "#",
+      href: "/",
       icon: <Youtube className="w-5 h-5" />,
     },
     
     {
       title: "Twitter",
-      href: "#",
+      href: "/",
       icon: <Twitter className="w-5 h-5" />,
     },
    
