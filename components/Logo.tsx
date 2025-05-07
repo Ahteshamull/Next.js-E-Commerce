@@ -2,10 +2,10 @@ import { cn } from '@/lib/utils'
 import Link from 'next/link'
 import React from 'react'
 
-export default function Logo({className}:{className?:string}) {
+export default function Logo({className,spanDesign}:{className?:string,spanDesign?:string}) {
   return (
     <Link href={'/'}>
-      <h2 className={cn("text-2xl text-shop_dark_green font-black tracking-wider uppercase hover:text-shop_light_green hoverEffect group font-sans",className)}>E<span className='text-shop_light_green group-hover:text-shop_dark_green    hoverEffect'>@</span>Store</h2>
+      <h2 className={cn("text-2xl text-shop_dark_green font-black tracking-wider uppercase hover:text-shop_light_green hoverEffect group font-sans",className)}>E<span className={cn("text-shop_light_green group-hover:text-shop_dark_green    hoverEffect",spanDesign)}>@</span>Store</h2>
     </Link>
   )
 }
