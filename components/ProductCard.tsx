@@ -19,7 +19,7 @@ const ProductCard = ({ product }: { product: Product }) => {
         {product?.images && (
           <Link href={`/product/${product?.slug?.current}`}>
             <Image
-              src={urlFor(product?.images[1]).url()}
+              src={urlFor(product?.images[0]).url()}
               alt="productImage"
               width={500}
               height={500}

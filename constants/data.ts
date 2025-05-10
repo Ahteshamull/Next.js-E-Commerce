@@ -1,25 +1,27 @@
+import { title } from "process";
+
 export const headerData = [
-    {
-       title:"Home",
-       href:"/"	
-    },
-    {
-       title:"Shop",
-       href:"/shop"	
-    },
-    {
-       title:"Blog",
-       href:"/blog"	
-    },
-    // {
-    //    title:"Contact",
-    //    href:"/contact"	
-    // },
-    {
-       title:"Hot Deal",
-       href:"/deal"	
-    },
-]
+  {
+    title: "Home",
+    href: "/",
+  },
+  {
+    title: "Shop",
+    href: "/shop",
+  },
+  {
+    title: "Blog",
+    href: "/blog",
+  },
+  // {
+  //    title:"Contact",
+  //    href:"/contact"
+  // },
+  {
+    title: "Hot Deal",
+    href: "/deal",
+  },
+];
 export const quickLinksData = [
   { title: "About us", href: "/about" },
   { title: "Contact us", href: "/contact" },
@@ -38,8 +40,8 @@ export const categoriesData = [
   { title: "gadget accessories", href: "gadget-accessories" },
 ];
 export const productType = [
-   { title: "Appliances", value: "appliances" },
-   { title: "Refrigerators", value: "refrigerators" },
-   { title: "Electronics", value: "electronics" },
-   { title: "Others", value: "others" },
+  { title: "Gadget", value: "gadget" },
+  { title: "Appliances", value: "appliances" },
+  { title: "Refrigerators", value: "refrigerators" },
+  { title: "Others", value: "others" },
 ];
