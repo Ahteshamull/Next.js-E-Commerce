@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "typegen":"npx sanity@latest schema extract && npx sanity@latest typegen generate"
+    "typegen": "npx sanity@latest schema extract && npx sanity@latest typegen generate"
   },
   "dependencies": {
     "@clerk/nextjs": "^6.19.1",
@@ -28,6 +28,7 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "cmdk": "^1.1.1",
+    "dayjs": "^1.11.13",
     "embla-carousel-react": "^8.6.0",
     "lucide-react": "^0.507.0",
     "motion": "^12.10.2",
