@@ -23,7 +23,7 @@ export default function ProductGrid() {
       setIsLoading(true);
       try {
         const response = await client.fetch(query, params);
-        console.log(response);
+      
         setProduct(await response);
       } catch (error) {
         console.log("Product fetching Error", error);
