@@ -24,7 +24,7 @@
     "@radix-ui/react-tooltip": "^1.2.6",
     "@sanity/icons": "^3.7.0",
     "@sanity/image-url": "^1.1.0",
-    "@sanity/vision": "^3.88.1",
+    "@sanity/vision": "^3.95.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "cmdk": "^1.1.1",
